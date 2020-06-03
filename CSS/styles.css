@@ -1,0 +1,106 @@
+html
+{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+}
+
+body
+{
+    background-color: #121212;
+    
+}
+
+.headerMain
+{
+    margin-top: 20%;
+}
+
+.maintitle
+{
+    font-family: 'Barlow Condensed';
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.registerBut-nav:focus
+{
+    border: none;
+    outline: none;
+}
+
+
+/*BUTTON HOVER */
+
+.registerBut {
+    --c: orange;
+    background-color: transparent;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.registerBut-nav:focus
+{
+    outline: none;
+    border: none;
+}
+
+.registerBut span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.registerBut:hover {
+    color: black;
+}
+
+.registerBut:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.registerBut span:nth-child(1) {
+    --n: 1;
+}
+
+.registerBut span:nth-child(2) {
+    --n: 2;
+}
+
+.registerBut span:nth-child(3) {
+    --n: 3;
+}
+
+.registerBut span:nth-child(4) {
+    --n: 4;
+}
+
+.nav-link
+{
+    font-size: 20px;
+}
