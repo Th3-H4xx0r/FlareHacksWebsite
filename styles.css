@@ -420,12 +420,22 @@ body {
   display: none;
 }
 
-@media(max-width: 1367px) {
+@media(max-width: 1366px) {
+
+  #img1
+  {
+    margin-left: 1%;
+  }
+
+  #img2
+  {
+    margin-left: 52%;
+  }
 
   #schedule-desktop
 {
   display: initial;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 
   #schedule-mobile
