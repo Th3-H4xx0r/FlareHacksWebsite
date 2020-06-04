@@ -22,3 +22,185 @@ html
     color: black;
 
 }
+
+/*--------------------------------------------------------------
+  # Resume
+  --------------------------------------------------------------*/
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+
+  *,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  *zoom: 1;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.c {
+  width: 100%;
+  
+}
+.p {
+  padding: 0px;
+  border-radius: 0 0 6px 6px;
+  position: absolute;
+  top: 2300px;
+  left:50%;
+  margin-left:-350px;
+  margin-top: -170px;
+  max-width: 700px;
+  width: 700px;
+  max-height: 340px;
+  height: 340px;
+
+}
+/* Sponsors Footer */
+
+.sponsorsFooter {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 10px;
+  z-index: 14;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+  z-index: 99;
+}
+
+.sponsorsFooter h1 {
+  font-weight: 300 !important;
+  color: #434A54 !important;
+  font-size: 22px;
+}
+.sponsorsFooter h1 > strong { font-weight: 700 !important;}
+
+.sponsorsFooter img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 120px;
+}
+
+.sponsorsFooter ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsorsFooter ul.enter > span:not(.hover) {
+  opacity: .1;
+}
+
+.sponsorsFooter ul.enter > span.hover {
+  opacity: 1;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 1px 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.sponsorsFooter ul span {
+  display: inline !important;
+  background: white;
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 26px 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.sponsorsFooter ul span,
+.sponsorsFooter ul span li > a {
+  cursor: default !important;
+  border: none !important;
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+
+.sponsorsFooter ul li {
+  margin: 35px 16px 0px;
+  display: inline-block;
+}
+
+
+@media(max-width: 750px) {
+  .p {
+    margin-left:-200px;
+    margin-top: -120px;
+    max-width: 400px;
+    width: 400px;
+    max-height: 240px;
+    height: 240px;
+    box-shadow: 2px 3px 0 0 rgba(0, 0, 0, .2), 0px -240px 0 0 rgba(0, 0, 0, .3), 0px -480px 0 0 rgba(0, 0, 0, .3);
+  }
+  .sponsorsFooter img { max-width: 70px; }
+  .sponsorsFooter ul li {
+    margin: 15px 5px 0px;
+  }
+}
