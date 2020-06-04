@@ -420,11 +420,12 @@ body {
   display: none;
 }
 
-@media(max-width: 1360px) {
+@media(max-width: 1367px) {
 
   #schedule-desktop
 {
   display: initial;
+  margin-left: 300px;
 }
 
   #schedule-mobile
