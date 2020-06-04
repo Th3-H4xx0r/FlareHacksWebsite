@@ -23,6 +23,25 @@ html
 
 }
 
+.fourth {
+  border-color: royalblue;
+  color: white;
+  width: 200px;
+  background-image: -webkit-linear-gradient(45deg, royalblue 100%, transparent 50%);
+  background-image: linear-gradient(45deg, royalblue 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  border: 50px;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.fourth:hover {
+  background-position: 0;
+  color: white;
+}
+
+
 /*--------------------------------------------------------------
   # Resume
   --------------------------------------------------------------*/
