@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/SUPER HIGH RES.png">
   <title>
@@ -25,21 +25,18 @@ Coded by www.creative-tim.com
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
   <!-- Nucleo Icons -->
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <link href="./assets/css/font-awesome.css" rel="stylesheet">
-
-  <link href="font-awesome.min.css" rel="stylesheet">
+  <link href="font-awesome.css">
 
   <!-- CSS Files -->
   <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
   <link href="./styles.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -47,177 +44,219 @@ Coded by www.creative-tim.com
 
 <body class="index-page">
   <!-- Navbar -->
-  <nav id="navbar-main" class="navbar navbar-fixed-top navbar-expand-lg navbar-transparent navbar-light headroom">
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image: url('assets/img/space_background.jpg');">
     <div class="container">
-      <a class="navbar-brand mr-lg-5">
-        <img src="./assets/img/transparent_flare_logo.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
-        aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbar_global">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <div class="row">
-                <img src="./assets/img/transparent_flare_logo.png">
-                <h1>FlareHacks</h1>
-              </div>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
-                aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/transparent_flare_logo.png">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-target">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item" style = "color: transparent;">
+                    <a class="nav-link" href="#aboutMe" style="color: white;">About Me</a>
+                </li>
+
+                <li class="nav-item" style = "color: transparent;">
+                    <a class="nav-link" href="#stats" style="color: white;">Stats</a>
+                </li>
+                <li class="nav-item" style = "color: transparent;">
+                    <a class="nav-link" href="#my-skills" style="color: white;">Experience</a>
+                </li>
+                <li class="nav-item" style = "color: transparent;">
+                    <a class="nav-link" href="#past-competitions" style="color: white;">Projects</a>
+                </li>
+                <li class="nav-item" style = "color: transparent;">
+                    <a class="nav-link" href="#contact-me" style="color: white;">Contact Me</a>
+                </li>
+
+                <li>
+                  
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--
+
+<nav id="navbar-main" class="navbar navbar-fixed-top navbar-expand-lg navbar-transparent navbar-light headroom">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5">
+      <img src="./assets/img/transparent_flare_logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
+      aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <div class="row">
+              <img src="./assets/img/transparent_flare_logo.png">
+              <h1>FlareHacks</h1>
             </div>
           </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global"
+              aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
         </div>
-        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-          <li class="nav-item dropdown">
-
-            <!--NAV DROPDOWN-->
-
-            <!--
-            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-ui-04 d-lg-none"></i>
-              <span class="nav-link-inner--text">Components</span>
-            </a>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item dropdown">
 
 
-            <div class="dropdown-menu dropdown-menu-xl">
-              <div class="dropdown-menu-inner">
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                    <i class="ni ni-spaceship"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Learn how to use compiling Scss, change brand colors and more.</p>
-                  </div>
-                </a>
+    
+          <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text">Components</span>
+          </a>
 
 
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/colors.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                    <i class="ni ni-palette"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Foundation</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for .</p>
-                  </div>
-                </a>
+          <div class="dropdown-menu dropdown-menu-xl">
+            <div class="dropdown-menu-inner">
+              <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                  <i class="ni ni-spaceship"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">Getting started</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Learn how to use compiling Scss, change brand colors and more.</p>
+                </div>
+              </a>
 
 
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                    <i class="ni ni-ui-04"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h5 class="heading text-warning mb-md-1">Components</h5>
-                    <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                  </div>
-                </a>
+              <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/colors.html" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                  <i class="ni ni-palette"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for .</p>
+                </div>
+              </a>
 
-                
-              </div>
+
+              <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <i class="ni ni-ui-04"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-warning mb-md-1">Components</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
+                </div>
+              </a>
+
               
             </div>
+            
+          </div>
 
-          -->
+       
+        <li class="nav-link">
+          <a href="#">
+            <h3 class="nav-heading">About Us</h3>
+          </a>
+        </li>
 
-          <li class="nav-link">
-            <a href="#">
-              <h3 class="nav-heading">About Us</h3>
-            </a>
-          </li>
+        <li class="nav-link">
+          <h3 class="nav-heading">Schedule</h3>
+        </li>
 
-          <li class="nav-link">
-            <h3 class="nav-heading">Schedule</h3>
-          </li>
-
-          <li class="nav-link">
-            <h3 class="nav-heading">Sponsors</h3>
-          </li>
-
-
-
-          <li class="nav-link">
-            <h3 class="nav-heading">Prizes</h3>
-          </li>
-
-          <li class="nav-link">
-            <h3 class="nav-heading">FaQ</h3>
-          </li>
-
-          <li class="nav-link">
-            <h3 class="nav-heading">The Team</h3>
-          </li>
+        <li class="nav-link">
+          <h3 class="nav-heading">Sponsors</h3>
+        </li>
 
 
 
+        <li class="nav-link">
+          <h3 class="nav-heading">Prizes</h3>
+        </li>
 
-          </li>
+        <li class="nav-link">
+          <h3 class="nav-heading">FaQ</h3>
+        </li>
 
-          <!--NAV DROPDOWN-->
-
-          <!--
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-collection d-lg-none"></i>
-              <span class="nav-link-inner--text">Examples</span>
-            </a>
-            <div class="dropdown-menu">
-              <a href="./examples/landing.html" class="dropdown-item">Landing</a>
-              <a href="./examples/profile.html" class="dropdown-item">Profile</a>
-              <a href="./examples/login.html" class="dropdown-item">Login</a>
-              <a href="./examples/register.html" class="dropdown-item">Register</a>
-            </div>
-          </li>
-        -->
+        <li class="nav-link">
+          <h3 class="nav-heading">The Team</h3>
+        </li>
 
 
-        </ul>
-        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.facebook.com/" target="_blank" data-toggle="tooltip"
-              title="Like us on Facebook">
-              <i class="fa fa-facebook-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Facebook</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://www.instagram.com" target="_blank" data-toggle="tooltip"
-              title="Follow us on Instagram">
-              <i class="fa fa-instagram"></i>
-              <span class="nav-link-inner--text d-lg-none">Instagram</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="https://twitter.com/" target="_blank" data-toggle="tooltip"
-              title="Follow us on Twitter">
-              <i class="fa fa-twitter-square"></i>
-              <span class="nav-link-inner--text d-lg-none">Twitter</span>
-            </a>
-          </li>
-          <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="
-            https://xeondevelopersus.typeform.com/to/Qk7lRj" target="_blank" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon">
-              </span>
-              <span class="nav-link-inner--text">Register</span>
 
-              <a href="https://docs.google.com/document/d/16xDmKBfaLigVJnSai2GLNh4Cj_psCRVLbX0Jlc6uJzI/edit?usp=sharing"
-                    class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank" style="height: 45px;">
-                    <span class="btn-inner--text"><span class="text-warning">Sponsor</span> us</span>
-                  </a>
-            </a>
-          </li>
-        </ul>
-      </div>
+
+        </li>
+
+
+
+
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Examples</span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="./examples/landing.html" class="dropdown-item">Landing</a>
+            <a href="./examples/profile.html" class="dropdown-item">Profile</a>
+            <a href="./examples/login.html" class="dropdown-item">Login</a>
+            <a href="./examples/register.html" class="dropdown-item">Register</a>
+          </div>
+        </li>
+
+
+
+      </ul>
+      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://www.facebook.com/" target="_blank" data-toggle="tooltip"
+            title="Like us on Facebook">
+            <i class="fa fa-facebook-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Facebook</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://www.instagram.com" target="_blank" data-toggle="tooltip"
+            title="Follow us on Instagram">
+            <i class="fa fa-instagram"></i>
+            <span class="nav-link-inner--text d-lg-none">Instagram</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://twitter.com/" target="_blank" data-toggle="tooltip"
+            title="Follow us on Twitter">
+            <i class="fa fa-twitter-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Twitter</span>
+          </a>
+        </li>
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a href="
+          https://xeondevelopersus.typeform.com/to/Qk7lRj" target="_blank" class="btn btn-neutral btn-icon">
+            <span class="btn-inner--icon">
+            </span>
+            <span class="nav-link-inner--text">Register</span>
+
+            <a href="https://docs.google.com/document/d/16xDmKBfaLigVJnSai2GLNh4Cj_psCRVLbX0Jlc6uJzI/edit?usp=sharing"
+                  class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank" style="height: 45px;">
+                  <span class="btn-inner--text"><span class="text-warning">Sponsor</span> us</span>
+                </a>
+          </a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
+-->
+
+
+
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="section section-hero section-shaped">
@@ -236,35 +275,34 @@ Coded by www.creative-tim.com
         <span class="span-100"></span>
       </div>
       <div class="page-header">
-        <div class="container shape-container d-flex align-items-center py-lg">
-          <div class="col px-0">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-6 text-center">
-                <img src="./assets/img/flarehacks_text_logo.png" style="width: 500px;" class="img-fluid">
-
-
-                <p class="lead text-white">Lighting the way for hackers in 2020.</p>
-
-
-                <div class="btn-wrapper mt-5">
-                  <a href=" https://xeondevelopersus.typeform.com/to/Qk7lRj"
-                    class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0" target="_blank" style="height: 40px; width: 130px; margin-top: 10px;">
-
-                    <p style="margin-top: -5px;">Register</p>
-
-                  </a>
-
-                  <a href="https://discord.gg/JwKG3sm" target = "blank"><button class="btn fourth" style="margin-top: 10px;"><i class="fab fa-discord"></i> Join our Discord</button></a>
+        <section style="background-image: url('assets/img/space_background.jpg'); height: 600px;">
+          <div class="container shape-container d-flex align-items-center py-lg">
+            <div class="col px-0">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <img src="./assets/img/flarehacks_text_logo.png" style="width: 500px;" class="img-fluid">
+  
+  
+                  <p class="lead text-white">Lighting the way for hackers in 2020.</p>
+  
+  
+                  <div class="btn-wrapper mt-5">
+                    <a target = "blank" href="https://xeondevelopersus.typeform.com/to/Qk7lRj"><div class="btn from-center">Register</div></a>
+  
+                    <a href="https://discord.gg/JwKG3sm" target = "blank"><button class="discord-btn">Discord</button></a>
+                    
+                  </div>
+  
                   
+  
+                
                 </div>
-
-              
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      <div class="separator separator-bottom separator-skew zindex-100">
+      <div class="separator separator-bottom separator-skew zindex-100" style="background-image: url('assets/img/space_background.jpg');">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
           xmlns="http://www.w3.org/2000/svg">
           <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
@@ -303,12 +341,12 @@ Coded by www.creative-tim.com
           </div>
 
           <!--SVG Pics-->
-          <img src="/SVG/undraw_at_home_octe.svg" alt="" style="width: 250px; position: absolute; top: 800px; left: 180px;">
-          <img src="/SVG/undraw_counting_stars_rrnl.svg" alt="" style="width: 280px; position: absolute; top: 1000px; left: 1400px;">
-          <img src="/SVG/undraw_launch_day_4e04 (1).svg" alt="" style="width: 250px; position: absolute; top: 1200px; left: 180px;">
-          <img src="/SVG/undraw_video_game_night_8h8m.svg" alt="" style="width: 280px; position: absolute; top: 1400px; left: 1400px;">
-          <img src="/SVG/undraw_nature_on_screen_xkli.svg" alt="" style="width: 250px; position: absolute; top: 1600px; left: 180px;">
-          <img src="/SVG/undraw_quite_town_mg2q.svg" alt="" style="width: 280px; position: absolute; top: 1800px; left: 1400px;">
+          <img src="/SVG/undraw_at_home_octe.svg" alt="" style="width: 250px; position: absolute; top: 800px; left: 180px;" class="svg-img-none">
+          <img src="/SVG/undraw_counting_stars_rrnl.svg" alt="" style="width: 280px; position: absolute; top: 1000px; left: 1400px;" class="svg-img-none">
+          <img src="/SVG/undraw_launch_day_4e04 (1).svg" alt="" style="width: 250px; position: absolute; top: 1200px; left: 180px;" class="svg-img-none">
+          <img src="/SVG/undraw_video_game_night_8h8m.svg" alt="" style="width: 280px; position: absolute; top: 1400px; left: 1400px;" class="svg-img-none">
+          <img src="/SVG/undraw_nature_on_screen_xkli.svg" alt="" style="width: 250px; position: absolute; top: 1600px; left: 180px;" class="svg-img-none">
+          <img src="/SVG/undraw_quite_town_mg2q.svg" alt="" style="width: 280px; position: absolute; top: 1800px; left: 1400px;" >
           <!--End of SVG Pics-->
   
           <div class="row">
@@ -321,7 +359,7 @@ Coded by www.creative-tim.com
                     effort and makes sure his projects are most optimized for the use of people. looks for
   
                   </em></p>
-                <ul>
+                <ul style="list-style-type: none;">
                   <li>Flare Hacks Discor Server</li>
                   <li>Main Hall Voice Channel</li>
                 </ul>
@@ -345,15 +383,16 @@ Coded by www.creative-tim.com
               </div>
       </section>
     </center>
+
     <div class='c'>
       <div class='p'>
-        <div class='sponsorsFooter'>
-
+        <div class='sponsorsFooter' class="svg-img-none">
+  
           <h1 id="sponsorTitle" data-default-title="<strong>Our Sponsors</strong>"><strong>Our Sponsors</strong></h1>
           <ul>
-
+  
             <span data-group-title="Gold Sponsor">
-
+  
               <li><img src="http://placehold.it/140x80/ccc/BBB&text=Company" style="width: 700px;"></li>
             </span>
             <span data-group-title="Silver Sponsors">
@@ -369,8 +408,12 @@ Coded by www.creative-tim.com
         </div>
       </div>
     </div>
+    
   </div>
 
+ 
+
+  
   <script>
     var __sf = $(".sponsorsFooter ul span");
     var __sf_cont = $(".sponsorsFooter ul");
@@ -390,21 +433,20 @@ Coded by www.creative-tim.com
   </script>
 
 
-<center>
-  
-  <div id="accordion" style="margin-top: 500px; width: 80%;">
+<div class="d-flex justify-content-center" align = "center">
+  <div id="accordion" style="margin-top: 350px; width: 80%;">
     <h1>FaQ</h1>
     <div style="height: 50px;"></div>
     <div class="card">
       <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h2 class="mb-1">
+          <h5 data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style=" color: black;">
             How much is Flare Hacks?
-          </button>
-        </h5>
+          </h5>
+        </h1>
       </div>
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" >
         <div class="card-body">
           Nothing!  Flare Hacks is absolutely FREE!
         </div>
@@ -413,9 +455,9 @@ Coded by www.creative-tim.com
     <div class="card">
       <div class="card-header" id="headingTwo">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h5 data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="max-width: 700px; color: black;">
             Whats the theme?
-          </button>
+          </h5>
         </h5>
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -427,9 +469,9 @@ Coded by www.creative-tim.com
     <div class="card">
       <div class="card-header" id="headingThree">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h5 data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             What do I need to make sure I do before the Hackathon?
-          </button>
+          </h5>
         </h5>
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -445,9 +487,9 @@ Coded by www.creative-tim.com
       <div class="card">
         <div class="card-header" id="headingThree">
           <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <h5 data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Have another Question?
-            </button>
+            </h5>
           </h5>
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -457,8 +499,13 @@ Coded by www.creative-tim.com
         </div>
     </div>
   </div>
+  </div>
+
+</div>
   
-</center>
+  
+  
+
 <div style = "height: 90px;"></div>
 
 <div class="container">
@@ -470,20 +517,20 @@ Coded by www.creative-tim.com
     <!-- Team Member 1 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+        <img src="assets/img/shabd_proifle_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Shabd Veyyakula</h5>
-          <div class="card-text text-black-50">Co-Executive Developer</div>
+          <div class="card-text text-black-50">Co-Executive Director</div>
         </div>
       </div>
     </div>
     <!-- Team Member 2 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+        <img src="assets/img/pranav_profile_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Pranav Krishna</h5>
-          <div class="card-text text-black-50">Co-Executive Developer</div>
+          <div class="card-text text-black-50">Co-Executive Director</div>
         </div>
       </div>
     </div>
@@ -500,17 +547,17 @@ Coded by www.creative-tim.com
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+        <img src="assets/img/kush_profile_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Kushagra Singh</h5>
-          <div class="card-text text-black-50">Applications Manager</div>
+          <div class="card-text text-black-50">Applications/Discord Manager</div>
         </div>
       </div>
     </div>
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+        <img src="assets/img/sai_profile_pic.JPG" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Sai Mitappali</h5>
           <div class="card-text text-black-50">Marketing Director</div>
@@ -520,7 +567,7 @@ Coded by www.creative-tim.com
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+        <img src="assets/img/pleskac_profile_pic.jfif" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Holland Pleskac</h5>
           <div class="card-text text-black-50">Sponsors</div>
