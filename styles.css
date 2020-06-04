@@ -435,7 +435,7 @@ body {
 }
 
   .svg-img-none{
-    display: none;
+    display: initial;
   }
   .p {
     margin-left:-200px;
@@ -468,7 +468,7 @@ body {
 }
 
   .svg-img-none{
-    display: none;
+    display: initial;
   }
   .p {
     margin-left:-200px;
