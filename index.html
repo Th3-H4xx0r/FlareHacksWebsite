@@ -45,6 +45,10 @@ Coded by www.creative-tim.com
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body class="index-page">
@@ -169,7 +173,7 @@ Coded by www.creative-tim.com
         </svg>
       </div>
     </div>
-    <section class="my-5" id = "aboutUs">
+    <section class="my-5" id = "aboutUs" data-aos="fade-in" data-aos-delay = "200">
       <center>
         <h1 >About Us</h1>
       </center>
@@ -200,11 +204,11 @@ Coded by www.creative-tim.com
         
           <!--SVG Pics-->
           <img src="/SVG/undraw_at_home_octe.svg" alt="" style="width: 250px; position: absolute; top: 800px;" class="svg-img-none" id = "img1">
-          <img src="/SVG/undraw_counting_stars_rrnl.svg" alt="" style="width: 280px; position: absolute; top: 1000px;" class="svg-img-none" id = "img2">
-          <img src="/SVG/undraw_launch_day_4e04 (1).svg" alt="" style="width: 250px; position: absolute; top: 1200px; " class="svg-img-none" id = "img1"> 
-          <img src="/SVG/undraw_video_game_night_8h8m.svg" alt="" style="width: 280px; position: absolute; top: 1400px;;" class="svg-img-none" id = "img2">
-          <img src="/SVG/undraw_nature_on_screen_xkli.svg" alt="" style="width: 250px; position: absolute; top: 1600px; ;" class="svg-img-none" id = "img1">
-          <img src="/SVG/undraw_quite_town_mg2q.svg" alt="" style="width: 280px; position: absolute; top: 1800px;" id = "img2">
+          <img src="/SVG/undraw_counting_stars_rrnl.svg" alt="" style="width: 280px; position: absolute; top: 1000px;" class="svg-img-none" id = "img2" data-aos="fade-in">
+          <img src="/SVG/undraw_launch_day_4e04 (1).svg" alt="" style="width: 250px; position: absolute; top: 1200px; " class="svg-img-none" id = "img1" data-aos="fade-in"> 
+          <img src="/SVG/undraw_video_game_night_8h8m.svg" alt="" style="width: 280px; position: absolute; top: 1400px;;" class="svg-img-none" id = "img2" data-aos="fade-in">
+          <img src="/SVG/undraw_nature_on_screen_xkli.svg" alt="" style="width: 250px; position: absolute; top: 1600px; ;" class="svg-img-none" id = "img1" data-aos="fade-in">
+          <img src="/SVG/undraw_quite_town_mg2q.svg" alt="" style="width: 280px; position: absolute; top: 1800px;" id = "img2" data-aos="fade-in">
           <!--End of SVG Pics-->
   
           <div class="row">
@@ -221,6 +225,7 @@ Coded by www.creative-tim.com
   
                   </p>
               </div>
+              
   
               <h3 class="resume-title">8:00 PM PST</h3>
               <div class="resume-item">
@@ -236,7 +241,8 @@ Coded by www.creative-tim.com
                 <h5>30 Minutes</h5>
                 <p>With the help of our organizers, find a team to work with during the hackathon. Meet us at the Team Building channel.</p>
               </div>
-  
+
+              <div data-aos="fade-up">
                 <h3 class="resume-title">7/25/2020 <span class="badge badge-info">Saturday</span></h3>
 
               
@@ -271,8 +277,10 @@ Coded by www.creative-tim.com
                 <p>Ever wanted to learn how to add cloud backend to your programs? Come to the Firebase Workshop and find out! Meet at the workshop voice channel.</p>
   
               </div>
-
-              <h3 class="resume-title">7/26/2020 <span class="badge badge-danger">Sunday</span></h3>
+              </div>
+  
+                <div data-aos="fade-up">
+                  <h3 class="resume-title">7/26/2020 <span class="badge badge-danger">Sunday</span></h3>
 
               <h3 class="resume-title">7:00 AM PST</h3>
               <div class="resume-item">
@@ -297,6 +305,10 @@ Coded by www.creative-tim.com
                 <p>Join our closing ceremony at the main hall, we will announce winners and end of the hackathon.</p>
   
               </div>
+
+                </div>
+
+              
 
 
 
@@ -543,7 +555,7 @@ Coded by www.creative-tim.com
   </script>
 
 
-<div class="d-flex justify-content-center" align = "center" id = "faq">
+<div class="d-flex justify-content-center" align = "center" id = "faq" data-aos="fade-right">
   <div id="accordion" style="margin-top: 350px; width: 80%;">
     <h1>FaQ</h1>
     <div style="height: 50px;"></div>
@@ -626,7 +638,7 @@ Coded by www.creative-tim.com
 
       <div class="row" align = "center">
         
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_winners_ao2o (1).svg" alt="..." width="220px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -636,7 +648,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="100">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_winners_ao2o -grey.svg" alt="..." width="220px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -646,7 +658,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="200">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_winners_ao2o -bronze.svg" alt="..." width="220px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -656,7 +668,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="300">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_medicine_b1ol - red.svg" alt="..." width="170px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -666,7 +678,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="400">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_Mobile_app_p3ts.svg" alt="..." width="160px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -676,7 +688,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="500">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_heatmap_uyye.svg" alt="..." width="180px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -684,7 +696,7 @@ Coded by www.creative-tim.com
               <div class="card-text text-black-50">TBD</div>
             </div>
           </div>
-        </div><div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        </div><div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="600">
           <div class="card border-0 shadow">
             <img src="assets/img/undraw_server_status_5pbv-server-color.svg" alt="..." width="170px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -694,7 +706,7 @@ Coded by www.creative-tim.com
           </div>
         </div>
 
-        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;">
+        <div class="col-xl-4 col-md-6 mb-4" style="width: 450px;" data-aos="fade-in" data-aos-delay="700">
           <div class="card border-0 shadow">
             <img src="assets/img/best-web-2.svg" alt="..." width="180px" height="120px" style="margin-top: 30px;">
             <div class="card-body text-center">
@@ -723,7 +735,7 @@ Coded by www.creative-tim.com
   <div style="height: 30px;"></div>
   <div class="row">
     <!-- Team Member 1 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in">
       <div class="card border-0 shadow">
         <img src="assets/img/shabd_proifle_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -733,7 +745,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <!-- Team Member 2 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="100">
       <div class="card border-0 shadow">
         <img src="assets/img/pranav_profile_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -743,7 +755,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <!-- Team Member 3 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="200">
       <div class="card border-0 shadow">
         <img src="assets/img/kiran_profile_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -753,7 +765,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <!-- Team Member 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="300">
       <div class="card border-0 shadow">
         <img src="assets/img/kush_profile_pic.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -763,7 +775,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <!-- Team Member 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="400">
       <div class="card border-0 shadow">
         <img src="assets/img/sai_profile_pic.JPG" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -773,7 +785,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <!-- Team Member 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="500">
       <div class="card border-0 shadow">
         <img src="assets/img/pleskac_profile_pic.jfif" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -783,7 +795,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
 
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-in" data-aos-delay="600">
       <div class="card border-0 shadow">
         <img src="assets/img/rishabd.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -820,3 +832,9 @@ Coded by www.creative-tim.com
 
   
 </footer>
+
+<script>
+  AOS.init();
+</script>
+  
+</body>
