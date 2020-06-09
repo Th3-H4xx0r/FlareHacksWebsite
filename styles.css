@@ -435,6 +435,18 @@ body {
   display: none;
 }
 
+#sponsorsDekstop
+{
+  display: initial;
+}
+
+#sponsorsMobile
+{
+  display: none;
+}
+
+
+/*~~~~~~~~~~~~~~~|Chromebook|~~~~~~~~~~~~~~~~~ */
 @media(max-width: 1520px) {
 
   #schedule-desktop
@@ -478,8 +490,18 @@ body {
 }
 
 
-/*MOBILE RESPONSIVE MEDIA QUERY*/
+/*~~~~~~~~~~~~~~~|MOBILE|~~~~~~~~~~~~~~~~~ */
 @media(max-width: 750px) {
+
+  #sponsorsDekstop
+{
+  display: none;
+}
+
+#sponsorsMobile
+{
+  display: initial;
+}
 
   #schedule-desktop
 {

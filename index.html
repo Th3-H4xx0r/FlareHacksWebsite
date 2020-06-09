@@ -86,13 +86,18 @@ Coded by www.creative-tim.com
                 <li class="nav-item" style = "color: transparent;">
                     <a class="nav-link" href="#faq" style="color: white;">FaQ</a>
                 </li>
+
+                <!--
                 <li class="nav-item" style = "color: transparent;">
                     <a class="nav-link" href="#prizes" style="color: white;">Prizes</a>
                 </li>
+                -->
 
                 <li class="nav-item" style = "color: transparent;">
                   <a class="nav-link" href="#ourteam" style="color: white;">Our Team</a>
               </li>
+
+              <a href="assets/Sponsorship_Tiers.pdf" target="blank" download><button style="background-color: orangered; border-radius: 5px; border: none; outline: none; color: white; font-weight: 700; padding: 5px; margin-top: 10px; font-size: 15px;">Sponsor Us</button></a>
 
                 <li>
                   
@@ -173,7 +178,11 @@ Coded by www.creative-tim.com
         </svg>
       </div>
     </div>
-    <section class="my-5" id = "aboutUs" data-aos="fade-in" data-aos-delay = "200">
+    <div id = "aboutUs" style="height: 30px;"></div>
+
+    <section class="my-5" data-aos="fade-in" data-aos-delay = "200">
+
+      
       <center>
         <h1 >About Us</h1>
       </center>
@@ -182,17 +191,19 @@ Coded by www.creative-tim.com
           <div class="col-md-8 mx-auto">
             <p style="font-size: 23px;">At Flare hacks we want students from around California to come together, form teams, and create a project over the duration of 24 hours. We are hoping to See many amzing projects the attendees come up with!</p>
             <p style="font-size: 23px;">Here at Flare Hacks, we dont want to put any restrictions, build whatever your heart desires.  Just make sure you have FUN!</p>
-            <p style="font-size: 23px;">Check out our Schedual and make sure to Join our Discord Server, which is where the hackathon is going to be hosted. <a href="" style="text-decoration: underline;">Discord</a> Make sure to Join our devpost as well.  This is where you will be submitting your projects! <a href="" style="text-decoration: underline;">Devpost</a></p>
+            <p style="font-size: 23px;">Check out our Schedule and make sure to Join our Discord Server, which is where the hackathon is going to be hosted. <a href="https://discord.gg/GrmDz5s" style="text-decoration: underline;">Discord</a> Make sure to Join our devpost as well.  This is where you will be submitting your projects! <a href="" style="text-decoration: underline;">Devpost</a></p>
 
           </div>
         </div>
       </div>
     </section>
 
-    <div class="d-flex justify-content-center" id = "schedule">
+    <div id = "schedule" style="height: 80px;"></div>
+
+    <div class="d-flex justify-content-center">
 
 
-      <h1>Schedual</h1>
+      <h1>Schedule</h1>
     </div>
 
     
@@ -520,22 +531,11 @@ Coded by www.creative-tim.com
               </div>
             </div>
           </div>
+        </div>
       </section>
-
 
     </center>
 
-    <!--
-      <div id = "sponsors" class="d-flex justify-content-center">
-
-      <h1 style="margin-top: 100px;">Our Sponsors</h1>
-
-    </div>
-    -->
-    
-  </div>
-
- 
 
   
   <script>
@@ -556,10 +556,59 @@ Coded by www.creative-tim.com
     });
   </script>
 
+  <!--SPONSORS SECTION-->
 
-<div class="d-flex justify-content-center" align = "center" id = "faq" data-aos="fade-right">
-  <div id="accordion" style="margin-top: 350px; width: 80%;">
-    <h1>FaQ</h1>
+  <div id = "sponsors" style="height: 80px;"></div>
+
+  <section id = "sponsorsDekstop">
+    <div class="d-flex justify-content-center" >
+
+      <h1 style="margin-top: 100px;">Our Sponsors</h1>
+    
+    </div>
+    
+    <div class="d-flex justify-content-center"> 
+      <div class="row">
+        
+          <a target = "blank" href="https://www.bugsee.com/"><img src="assets/img/Bugsee-Logo.svg" width="250px"></a>
+
+
+        <a target = "blank" href="https://www.hyperxgaming.com/us"><img src="assets/img/HyperX Full Color.svg" width="600px" style="margin-top: 0px;"></a>
+
+        <a target = "blank" href="https://balsamiq.com/"><img src="assets/img/balsamiq-logo-screen.svg" width="250px" style="margin-top: 80px;"></a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id = "sponsorsMobile">
+    <div class="d-flex justify-content-center">
+
+      <h1 style="margin-top: 100px;">Our Sponsors</h1>
+    
+    </div>
+    
+      <div class="row">
+        
+          <a target = "blank" href="https://www.bugsee.com/"><img src="assets/img/Bugsee-Logo.svg" style="margin-left: 50%;"></a>
+
+
+        <a target = "blank" href="https://www.hyperxgaming.com/us"><img src="assets/img/HyperX Full Color.svg" width="440px" style="margin-left: -4%; margin-top: -15%;"></a>
+
+        <a target = "blank" href="https://balsamiq.com/"><img src="assets/img/balsamiq-logo-screen.svg" width="250px" style="margin-left: 30%; margin-top: -15%;"></a>
+
+      </div>
+  </section>
+
+
+
+
+
+
+<div class="d-flex justify-content-center" align = "center"  data-aos="fade-right">
+  <div id="accordion" style="width: 80%;">
+    <div id = "faq" style="height: 100px;"></div>
+    <h1 >FaQ</h1>
     <div style="height: 50px;"></div>
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -627,11 +676,26 @@ Coded by www.creative-tim.com
       <div class="card-header" id="headingThree">
         <h5 class="mb-0">
           <h5 data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
-            Have another Question?
+            What about teams?
           </h5>
         </h5>
       </div>
       <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          Teams can be a maximum of 4 people. Our prizes are given out in 4 count, so this is why teams of more than 4 are highly not recommended.
+        </div>
+      </div>
+  </div>
+
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <h5 data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+            Have another Question?
+          </h5>
+        </h5>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
         <div class="card-body">
           Email <a href="mailto:admin@flarehacks.com">admin@flarehacks.com</a>
         </div>
@@ -729,9 +793,9 @@ Coded by www.creative-tim.com
   
   
 
-<div style = "height: 90px;"></div>
+<div style = "height: 90px;" id="ourteam"></div>
 
-<div class="container" id = "ourteam">
+<div class="container">
   <center>
     <h1>Meet The Team</h1>
   </center>
@@ -783,7 +847,7 @@ Coded by www.creative-tim.com
         <img src="assets/img/sai_profile_pic.JPG" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Sai Mitappali</h5>
-          <div class="card-text text-black-50">Marketing Director</div>
+          <div class="card-text text-black-50">Marketing</div>
         </div>
       </div>
     </div>
@@ -793,7 +857,7 @@ Coded by www.creative-tim.com
         <img src="assets/img/pleskac_profile_pic.jfif" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Holland Pleskac</h5>
-          <div class="card-text text-black-50">Sponsors</div>
+          <div class="card-text text-black-50">Sponsors Director</div>
         </div>
       </div>
     </div>
@@ -802,8 +866,8 @@ Coded by www.creative-tim.com
       <div class="card border-0 shadow">
         <img src="assets/img/rishabd.png" class="card-img-top" alt="...">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Rishab Rai</h5>
-          <div class="card-text text-black-50">Logistics Dictator</div>
+          <h5 class="card-title mb-0">Rishabh Rai</h5>
+          <div class="card-text text-black-50">Logistics Director</div>
         </div>
       </div>
     </div>
@@ -824,7 +888,7 @@ Coded by www.creative-tim.com
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
   
   <div class="container text-center">
-    <small>Copyright &copy; Flare Hacks 2020</small>
+    <small>Flare Hacks 2020</small>
   </div>
 
   <center>
