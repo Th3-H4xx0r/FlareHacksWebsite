@@ -398,6 +398,14 @@ html
 	height: 100%;
 }
 
+.judges-desktop{
+  display: initial;
+}
+
+.mobile-judges{
+  display: none;
+}
+
 
 /* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
 
@@ -492,6 +500,14 @@ body {
 
 /*~~~~~~~~~~~~~~~|MOBILE|~~~~~~~~~~~~~~~~~ */
 @media(max-width: 750px) {
+
+  .judges-desktop{
+    display: none;
+  }
+  
+  .mobile-judges{
+    display: initial;
+  }
 
   #sponsorsDekstop
 {
